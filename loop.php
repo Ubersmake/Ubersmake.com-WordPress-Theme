@@ -62,6 +62,7 @@ if ( false === $format )
 ?>
 
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<!-- No entry meta(data)
 	<div class="entry-meta">
 
 		<?php
@@ -85,7 +86,9 @@ if ( false === $format )
 
 			edit_post_link( __( 'Edit', 'pilcrow' ), '<span class="edit-link"> | ', '</span>' );
 		?>
-	</div><!-- .entry-meta -->
+	</div>
+	-->
+	<!-- .entry-meta -->
 
 	<?php
 		if ( 'link' != $format ) :
