@@ -104,6 +104,7 @@ if ( false === $format )
 	</div><!-- .entry-content -->
 	<?php endif; // is_search ?>
 
+    <!--  No entry links.
 	<div class="entry-links">
 		<p class="comment-number"><?php comments_popup_link( __( 'Leave a Comment', 'pilcrow' ), __( '1 Comment', 'pilcrow' ), __( '% Comments', 'pilcrow' ) ); ?></p>
 
@@ -122,7 +123,9 @@ if ( false === $format )
 			<p class="entry-categories tagged"><?php printf( __( 'Filed under %s', 'pilcrow' ), get_the_category_list( ', ' ) ); ?></p>
 			<p class="entry-tags tagged"><?php the_tags( __( 'Tagged as', 'pilcrow' ).' ', ', ', '<br />' ); ?></p>
 		<?php endif; ?>
-	</div><!-- .entry-links -->
+	</div>
+	-->
+	<!-- .entry-links -->
 
 </div><!-- #post-## -->
 
