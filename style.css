@@ -27,7 +27,7 @@ Tags: custom-header, custom-background, custom-menu, sticky-post, microformats, 
 }
 
 #content .post {
-	min-height: 200px;
+	height: 200px;
 
 	-webkit-column-break-inside: avoid;
 	page-break-inside: avoid;
