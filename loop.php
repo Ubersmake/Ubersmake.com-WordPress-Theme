@@ -104,8 +104,20 @@ if ( false === $format )
     	</div><!-- .entry-summary -->
     	<?php else : ?>
     	<div class="entry entry-content">
-    		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'pilcrow' ) ); ?>
-    		<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'pilcrow' ), 'after' => '</div>' ) ); ?>
+
+            <?php
+            if ( 'link' == $format ) :
+                printf( __( '<h2>'));
+            endif;
+
+    		the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'pilcrow' ) );
+    		
+            if ( 'link' == $format ) :
+                printf( __( '</h2>'));
+            endif;
+            ?>
+
+            <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'pilcrow' ), 'after' => '</div>' ) ); ?>
     	</div><!-- .entry-content -->
     	<?php endif; // is_search ?>
 
