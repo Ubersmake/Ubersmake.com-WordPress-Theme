@@ -34,6 +34,14 @@ body.home #content .post {
 body.home .entry-outer {
     height: 200px;
     padding: 25px;
+
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 10px;
+
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 10px;
 }
 
 body.home #content .format-standard {
