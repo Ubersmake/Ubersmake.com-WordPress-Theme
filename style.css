@@ -26,13 +26,14 @@ body.home #content {
 }
 
 body.home #content .post {
-	height: 200px;
-	padding: 25px;
-	margin-bottom: 25px;
-
 	-webkit-column-break-inside: avoid;
 	page-break-inside: avoid;
 	break-inside: avoid;
+}
+
+body.home .entry-outer {
+    height: 200px;
+    padding: 25px;
 }
 
 body.home #content .format-standard {
@@ -41,4 +42,8 @@ body.home #content .format-standard {
 
 body.home #content .format-link {
 	background-color: green;
+}
+
+#footer {
+    margin-top: 25px;
 }
