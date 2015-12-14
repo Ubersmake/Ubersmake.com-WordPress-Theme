@@ -64,6 +64,36 @@ function ubersmake_custom_header_setup() {
       'description'   => _x( 'Buddha', 'Header image description', 'ubersmake' ),
       'source'        => 'https://www.flickr.com/photos/ubersmake/16491809956/'
     ),
+    'edinburgh' => array(
+      'url'           => '%2$s/images/headers/edinburgh.jpg',
+      'thumbnail_url' => '%2$s/images/headers/edinburgh-thumbnail.jpg',
+      'description'   => _x( 'edinburgh', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/15062454096/'
+    ),
+    'georgetown' => array(
+      'url'           => '%2$s/images/headers/georgetown.jpg',
+      'thumbnail_url' => '%2$s/images/headers/georgetown-thumbnail.jpg',
+      'description'   => _x( 'George Town', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/19892541354/'
+    ),
+    'siamreap' => array(
+      'url'           => '%2$s/images/headers/siamreap.jpg',
+      'thumbnail_url' => '%2$s/images/headers/siamreap-thumbnail.jpg',
+      'description'   => _x( 'Siam Reap', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/20400291183/'
+    ),
+    'busan' => array(
+      'url'           => '%2$s/images/headers/busan.jpg',
+      'thumbnail_url' => '%2$s/images/headers/busan-thumbnail.jpg',
+      'description'   => _x( 'Busan', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/16465448569/'
+    ),
+    'paris' => array(
+      'url'           => '%2$s/images/headers/paris.jpg',
+      'thumbnail_url' => '%2$s/images/headers/paris-thumbnail.jpg',
+      'description'   => _x( 'Paris', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/15174505258/'
+    ),
   ) );
 }
 add_action( 'after_setup_theme', 'ubersmake_custom_header_setup' );
