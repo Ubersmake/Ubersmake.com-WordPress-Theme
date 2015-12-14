@@ -7,10 +7,9 @@ function theme_enqueue_styles() {
 }
 
 /* Modified from pilcrow/inc/custom-header.php */
-remove_action( 'after_setup_theme', 'pilcrow_custom_header_setup' );
 function ubersmake_custom_header_setup() {
   $args = array(
-    'default-image'          => get_stylesheet_directory_uri() . '/images/headers/bazaar.jpg',
+    'default-image'          => '%2$s/images/headers/bazaar.jpg',
     'default-text-color'     => '000',
     'width'                  => apply_filters( 'pilcrow_header_image_width', 990 ),
     'height'                 => apply_filters( 'pilcrow_header_image_height', 257 ),
@@ -33,11 +32,16 @@ function ubersmake_custom_header_setup() {
 
   // Default custom headers packaged with the theme. %s is a placeholder for the theme template directory URI.
   register_default_headers( array(
-    'pattern' => array(
-      'url'           => get_stylesheet_directory_uri() . '/images/headers/bazaar.jpg',
-      'thumbnail_url' => get_stylesheet_directory_uri() . '/images/headers/bazaar-thumbnail.jpg',
-      'description'   => _x( 'Pattern', 'Header image description', 'ubersmake' )
+    'bazaar' => array(
+      'url'           => '%2$s/images/headers/bazaar.jpg',
+      'thumbnail_url' => '%2$s/images/headers/bazaar-thumbnail.jpg',
+      'description'   => _x( 'Bazaar', 'Header image description', 'ubersmake' )
     ),
   ) );
 }
 add_action( 'after_setup_theme', 'ubersmake_custom_header_setup' );
+
+function ubersmake_remove_pilcrow_custom_header_setup() {
+  remove_action( 'after_setup_theme', 'pilcrow_custom_header_setup' );
+}
+add_action ('after_setup_theme', 'ubersmake_remove_pilcrow_custom_header_setup', 0 );
