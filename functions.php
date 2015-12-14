@@ -31,11 +31,38 @@ function ubersmake_custom_header_setup() {
   set_post_thumbnail_size( get_custom_header()->width, get_custom_header()->height, true );
 
   // Default custom headers packaged with the theme. %s is a placeholder for the theme template directory URI.
+  /* Header images: 990 x 257. */
+  /* Header thumbnails: 230 x 60. */
   register_default_headers( array(
     'bazaar' => array(
       'url'           => '%2$s/images/headers/bazaar.jpg',
       'thumbnail_url' => '%2$s/images/headers/bazaar-thumbnail.jpg',
-      'description'   => _x( 'Bazaar', 'Header image description', 'ubersmake' )
+      'description'   => _x( 'Bazaar', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/15981309416/'
+    ),
+    'causeway' => array(
+      'url'           => '%2$s/images/headers/causeway.jpg',
+      'thumbnail_url' => '%2$s/images/headers/causeway-thumbnail.jpg',
+      'description'   => _x( 'Causeway', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/14975660961/'
+    ),
+    'cafe' => array(
+      'url'           => '%2$s/images/headers/cafe.jpg',
+      'thumbnail_url' => '%2$s/images/headers/cafe-thumbnail.jpg',
+      'description'   => _x( 'Cafe', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/15836437415/'
+    ),
+    'atrium' => array(
+      'url'           => '%2$s/images/headers/atrium.jpg',
+      'thumbnail_url' => '%2$s/images/headers/atrium-thumbnail.jpg',
+      'description'   => _x( 'Atrium', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/15836437415/'
+    ),
+    'buddha' => array(
+      'url'           => '%2$s/images/headers/buddha.jpg',
+      'thumbnail_url' => '%2$s/images/headers/buddha-thumbnail.jpg',
+      'description'   => _x( 'Buddha', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/16491809956/'
     ),
   ) );
 }
