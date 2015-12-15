@@ -44,12 +44,12 @@ body.home .entry-outer {
     border-bottom-width: 10px;
 }
 
-body.home #content .format-standard {
-	background-color: blue;
+body.home #content .format-link {
+	background-color: black;
 }
 
-body.home #content .format-link {
-	background-color: green;
+body.home #content .format-link .entry-outer .entry-content h2 p a {
+    color: white;
 }
 
 #footer {
