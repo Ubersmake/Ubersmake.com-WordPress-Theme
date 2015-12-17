@@ -38,7 +38,7 @@ function ubersmake_custom_header_setup() {
       'url'           => '%2$s/images/headers/atrium.jpg',
       'thumbnail_url' => '%2$s/images/headers/atrium-thumbnail.jpg',
       'description'   => _x( 'Atrium', 'Header image description', 'ubersmake' ),
-      'source'        => 'https://www.flickr.com/photos/ubersmake/15836437415/'
+      'source'        => 'https://www.flickr.com/photos/ubersmake/14967126893/'
     ),
     'cafe' => array(
       'url'           => '%2$s/images/headers/cafe.jpg',
