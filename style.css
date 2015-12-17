@@ -17,6 +17,20 @@ body {
 }
 
 
+#header #nav #menu-item-home {
+    float: right;
+}
+
+#header #nav #menu-item-home a {
+    color: white;
+    background-color: black;
+}
+
+#header #nav #menu-item-home a:hover{
+    color: black;
+    background-color: white;
+}
+
 #header {
     margin-bottom: 10px;
 }
