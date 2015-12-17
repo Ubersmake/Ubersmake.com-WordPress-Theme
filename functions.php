@@ -34,17 +34,11 @@ function ubersmake_custom_header_setup() {
   /* Header images: 990 x 257. */
   /* Header thumbnails: 230 x 60. */
   register_default_headers( array(
-    'bazaar' => array(
-      'url'           => '%2$s/images/headers/bazaar.jpg',
-      'thumbnail_url' => '%2$s/images/headers/bazaar-thumbnail.jpg',
-      'description'   => _x( 'Bazaar', 'Header image description', 'ubersmake' ),
-      'source'        => 'https://www.flickr.com/photos/ubersmake/15981309416/'
-    ),
-    'causeway' => array(
-      'url'           => '%2$s/images/headers/causeway.jpg',
-      'thumbnail_url' => '%2$s/images/headers/causeway-thumbnail.jpg',
-      'description'   => _x( 'Causeway', 'Header image description', 'ubersmake' ),
-      'source'        => 'https://www.flickr.com/photos/ubersmake/14975660961/'
+    'atrium' => array(
+      'url'           => '%2$s/images/headers/atrium.jpg',
+      'thumbnail_url' => '%2$s/images/headers/atrium-thumbnail.jpg',
+      'description'   => _x( 'Atrium', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/15836437415/'
     ),
     'cafe' => array(
       'url'           => '%2$s/images/headers/cafe.jpg',
@@ -52,41 +46,17 @@ function ubersmake_custom_header_setup() {
       'description'   => _x( 'Cafe', 'Header image description', 'ubersmake' ),
       'source'        => 'https://www.flickr.com/photos/ubersmake/15836437415/'
     ),
-    'atrium' => array(
-      'url'           => '%2$s/images/headers/atrium.jpg',
-      'thumbnail_url' => '%2$s/images/headers/atrium-thumbnail.jpg',
-      'description'   => _x( 'Atrium', 'Header image description', 'ubersmake' ),
-      'source'        => 'https://www.flickr.com/photos/ubersmake/15836437415/'
-    ),
-    'buddha' => array(
-      'url'           => '%2$s/images/headers/buddha.jpg',
-      'thumbnail_url' => '%2$s/images/headers/buddha-thumbnail.jpg',
-      'description'   => _x( 'Buddha', 'Header image description', 'ubersmake' ),
-      'source'        => 'https://www.flickr.com/photos/ubersmake/16491809956/'
+    'causeway' => array(
+      'url'           => '%2$s/images/headers/causeway.jpg',
+      'thumbnail_url' => '%2$s/images/headers/causeway-thumbnail.jpg',
+      'description'   => _x( 'Causeway', 'Header image description', 'ubersmake' ),
+      'source'        => 'https://www.flickr.com/photos/ubersmake/14975660961/'
     ),
     'edinburgh' => array(
       'url'           => '%2$s/images/headers/edinburgh.jpg',
       'thumbnail_url' => '%2$s/images/headers/edinburgh-thumbnail.jpg',
       'description'   => _x( 'edinburgh', 'Header image description', 'ubersmake' ),
       'source'        => 'https://www.flickr.com/photos/ubersmake/15062454096/'
-    ),
-    'georgetown' => array(
-      'url'           => '%2$s/images/headers/georgetown.jpg',
-      'thumbnail_url' => '%2$s/images/headers/georgetown-thumbnail.jpg',
-      'description'   => _x( 'George Town', 'Header image description', 'ubersmake' ),
-      'source'        => 'https://www.flickr.com/photos/ubersmake/19892541354/'
-    ),
-    'siamreap' => array(
-      'url'           => '%2$s/images/headers/siamreap.jpg',
-      'thumbnail_url' => '%2$s/images/headers/siamreap-thumbnail.jpg',
-      'description'   => _x( 'Siam Reap', 'Header image description', 'ubersmake' ),
-      'source'        => 'https://www.flickr.com/photos/ubersmake/20400291183/'
-    ),
-    'busan' => array(
-      'url'           => '%2$s/images/headers/busan.jpg',
-      'thumbnail_url' => '%2$s/images/headers/busan-thumbnail.jpg',
-      'description'   => _x( 'Busan', 'Header image description', 'ubersmake' ),
-      'source'        => 'https://www.flickr.com/photos/ubersmake/16465448569/'
     ),
     'paris' => array(
       'url'           => '%2$s/images/headers/paris.jpg',
