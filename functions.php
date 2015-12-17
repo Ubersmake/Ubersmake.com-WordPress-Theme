@@ -9,7 +9,7 @@ function theme_enqueue_styles() {
 /* Modified from pilcrow/inc/custom-header.php */
 function ubersmake_custom_header_setup() {
   $args = array(
-    'default-image'          => '%2$s/images/headers/bazaar.jpg',
+    'default-image'          => '%2$s/images/headers/atrium.jpg',
     'default-text-color'     => '000',
     'width'                  => apply_filters( 'pilcrow_header_image_width', 990 ),
     'height'                 => apply_filters( 'pilcrow_header_image_height', 257 ),
