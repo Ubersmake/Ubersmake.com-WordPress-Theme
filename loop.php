@@ -17,17 +17,6 @@
  * @since Pilcrow 1.0
  */
 
-/* Display navigation to next/previous pages when applicable */
-
-if ( $wp_query->max_num_pages > 1 ) :
-?>
-<div id="nav-above" class="navigation">
-    <div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'pilcrow' ) ); ?></div>
-    <div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'pilcrow' ) ); ?></div>
-</div><!-- #nav-above -->
-<?php
-endif;
-
 /* If there are no posts to display, such as an empty archive page */
 if ( ! have_posts() ) : ?>
 <div id="post-0" class="post error404 not-found">
@@ -102,16 +91,4 @@ if ( false === $format )
     </div>
 </div><!-- #post-## -->
 
-<?php comments_template(); ?>
-
 <?php endwhile; // End the loop. Whew.
-
-/* Display navigation to next/previous pages when applicable */
-if ( $wp_query->max_num_pages > 1 ) :
-?>
-<div id="nav-below" class="navigation">
-    <div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'pilcrow' ) ); ?></div>
-    <div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'pilcrow' ) ); ?></div>
-</div><!-- #nav-below -->
-<?php
-endif;
