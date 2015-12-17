@@ -88,7 +88,7 @@ if ( false === $format )
                     printf( __( '<h2>'));
                 endif;
 
-                the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'pilcrow' ) );
+                the_content( __( '', 'pilcrow' ) );
                 
                 if ( 'link' == $format ) :
                     printf( __( '</h2>'));
