@@ -48,7 +48,7 @@
 			</div><!-- #nav -->
 
 			<div id="pic">
-				<a href="<?php echo home_url( '/' ); ?>" rel="home">
+				<a href="<?php echo get_custom_header()->source; ?>" rel="home">
 				<?php
 					// Check if this is a post or page, if it has a thumbnail, and if it's a big one
 					if ( is_singular() && has_post_thumbnail() &&
