@@ -89,6 +89,16 @@ body.home #content .format-image a {
     color: white;
 }
 
+body.single .entry-content {
+    letter-spacing: normal;
+    line-height: 30px;
+    font-size: medium;
+}
+
+body.single .entry-content p {
+    margin-bottom: 35px;
+}
+
 #footer {
     margin-top: 10px;
 }
