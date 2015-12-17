@@ -11,6 +11,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: custom-header, custom-background, custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, featured-image-header, featured-images, post-formats
 */
 
+/* Global. */
+body {
+    letter-spacing: 0.3em;
+}
+
+
 #header {
 	margin-bottom: 10px;
 }
@@ -44,15 +50,23 @@ body.home .entry-outer {
     border-bottom-width: 10px;
 }
 
-body.home #content .format-link {
-	background-color: black;
+body.home #content a:hover {
+    text-decoration: underline;
 }
 
-body.home #content .format-link .entry-outer .entry-content h2 p a {
+body.home #content .format-standard a:hover {
+    color: black;
+}
+
+body.home #content .format-link {
+    background-color: black;
+}
+
+body.home #content .format-link a {
     color: white;
 }
 
-body.home #content .format-image .entry-outer h2 a {
+body.home #content .format-image a {
     color: white;
 }
 
