@@ -39,11 +39,7 @@
 			  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
 				<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'pilcrow' ); ?>"><?php _e( 'Skip to content', 'pilcrow' ); ?></a></div>
 				<?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu.  The menu assiged to the primary position is the one used.  If none is assigned, the menu with the lowest ID is used.  */ ?>
-				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary',
-					'items_wrap' => '<ul>
-						<li id="menu-item-home" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home">
-							<a href="http://www.ubersmake.com">Ubersmake.com</a>
-						</li>%3$s</ul>') );
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary') );
 				?>
 			</div><!-- #nav -->
 

@@ -16,17 +16,20 @@ body {
     letter-spacing: 0.3em;
 }
 
-
-#header #nav #menu-item-home {
+#header #nav .menu-header .contact {
     float: right;
 }
 
-#header #nav #menu-item-home a {
+#header #nav .menu-header .home {
+    float: right;
+}
+
+#header #nav .menu-header .home a {
     color: white;
     background-color: black;
 }
 
-#header #nav #menu-item-home a:hover{
+#header #nav .menu-header .home a:hover{
     color: black;
     background-color: white;
 }
