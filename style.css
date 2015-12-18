@@ -25,13 +25,13 @@ body {
 }
 
 #header #nav .menu-header .home a {
-    color: white;
-    background-color: black;
+    color: #FFF;
+    background-color: #222;
 }
 
 #header #nav .menu-header .home a:hover{
-    color: black;
-    background-color: white;
+    color: #222;
+    background-color: #FFF;
 }
 
 #header {
@@ -59,11 +59,11 @@ body.home .entry-outer {
     padding: 25px;
 
     border-top-style: solid;
-    border-top-color: white;
+    border-top-color: #FFF;
     border-top-width: 10px;
 
     border-bottom-style: solid;
-    border-bottom-color: white;
+    border-bottom-color: #FFF;
     border-bottom-width: 10px;
 }
 
@@ -77,29 +77,29 @@ body.home #content .format-standard p {
 
 
 body.home #content .format-standard a:hover {
-    color: black;
+    color: #222;
 }
 
 body.home #content .format-link {
-    background-color: black;
+    background-color: #222;
 }
 
 body.home #content .format-link a {
-    color: white;
+    color: #FFF;
 }
 
 body.home #content .format-link .github {
     font-size: small;
-    color: white;
+    color: #FFF;
 }
 
 body.home #content .format-link .github a {
     font-size: small;
-    color: white;
+    color: #FFF;
 }
 
 body.home #content .format-image a {
-    color: white;
+    color: #FFF;
 }
 
 body.single .entry-content {
