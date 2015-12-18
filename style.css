@@ -85,6 +85,16 @@ body.home #content .format-link a {
     color: white;
 }
 
+body.home #content .format-link .github {
+    font-size: small;
+    color: white;
+}
+
+body.home #content .format-link .github a {
+    font-size: small;
+    color: white;
+}
+
 body.home #content .format-image a {
     color: white;
 }
