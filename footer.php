@@ -23,7 +23,7 @@
 				?>
 
 				<div id="site-info">
-					<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> by <a href="mailto:paul@ubersmake.com" target="_blank">Paul Morales</a>
+					<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> is <a href="mailto:paul@ubersmake.com" target="_blank">Paul Morales</a>
 				</div><!-- #site-info -->
 
 				<div id="site-generator">
