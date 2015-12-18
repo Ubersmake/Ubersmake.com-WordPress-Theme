@@ -102,3 +102,7 @@ body.single .entry-content p {
 #footer {
     margin-top: 10px;
 }
+
+#footer #colophon {
+    letter-spacing: normal;
+}

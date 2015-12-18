@@ -11,6 +11,30 @@
 ?>
 
 		</div><!-- #content-box -->
+
+		<div id="footer" role="contentinfo">
+			<div id="colophon">
+
+				<?php
+					/* A sidebar in the footer? Yep. You can can customize
+					 * your footer with two columns of widgets.
+					 */
+					get_sidebar( 'footer' );
+				?>
+
+				<div id="site-info">
+					<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> by <a href="mailto:paul@ubersmake.com" target="_blank">Paul Morales</a>
+				</div><!-- #site-info -->
+
+				<div id="site-generator">
+					<a href="https://github.com/Ubersmake/Ubersmake.com-WordPress-Theme" target="_blank">Custom Theme on GitHub</a>
+					&middot;
+					<?php printf( __( 'Original Theme: %1$s by %2$s.', 'pilcrow' ), 'Pilcrow', '<a href="http://automattic.com/" target="_blank" rel="designer">Automattic</a>' ); ?>
+				</div><!-- #site-generator -->
+
+			</div><!-- #colophon -->
+		</div><!-- #footer -->
+
 	</div><!-- #page .blog -->
 </div><!-- #container -->
 
