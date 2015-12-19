@@ -39,13 +39,17 @@ body {
 }
 
 body.home #content {
-    -webkit-columns: 3 200px;
-    -moz-columns: 3 200px;
-    columns: 3 200px;
+    -webkit-columns: 3 300px;
+    -moz-columns: 3 300px;
+    columns: 3 300px;
 
     -webkit-column-gap: 25px;
     -moz-column-gap: 25px;
     column-gap: 25px;
+
+    -webkit-column-width: 300px;
+    -moz-column-width: 300px;
+    column-width: 300px;
 }
 
 body.home #content .post {
