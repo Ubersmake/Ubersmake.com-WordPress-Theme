@@ -62,7 +62,7 @@ if ( false === $format )
                 the_title( '<h2 class="entry-title"><a href="' . get_permalink() . '" rel="bookmark">', '</a></h2>' );
             endif;
 
-            if ( is_search() ) : // Only display excerpts in search.
+            if ( has_excerpt( $post->ID ) ) : // Only display excerpts in search.
         ?>
         <div class="entry-summary">
             <?php the_excerpt(); ?>
@@ -85,7 +85,7 @@ if ( false === $format )
             endif;
             ?>
 
-            <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'pilcrow' ), 'after' => '</div>' ) ); ?>
+            
         </div><!-- .entry-content -->
         <?php endif; // is_search ?>
     </div>
