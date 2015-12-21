@@ -16,6 +16,11 @@ Tags: custom-header, custom-background, custom-menu, sticky-post, microformats, 
     min-width: 600px;
 }
 
+#header #nav .menu-header a {
+    font-size: 1.25em;
+    line-height: 4.5em;
+}
+
 #header #nav .menu-header .home {
     float: right;
 }
@@ -42,10 +47,6 @@ body.home #content {
     -webkit-column-gap: 25px;
     -moz-column-gap: 25px;
     column-gap: 25px;
-
-    -webkit-column-width: 250px;
-    -moz-column-width: 250px;
-    column-width: 250px;
 }
 
 body.home #content .post {
