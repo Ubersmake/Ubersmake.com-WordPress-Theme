@@ -68,6 +68,11 @@ function ubersmake_custom_header_setup() {
 }
 add_action( 'after_setup_theme', 'ubersmake_custom_header_setup' );
 
+function ubersmake_setup() {
+  remove_filter( 'get_the_excerpt', 'pilcrow_custom_excerpt_more' );
+}
+add_action( 'after_setup_theme', 'ubersmake_setup' );
+
 function ubersmake_remove_pilcrow_custom_header_setup() {
   remove_action( 'after_setup_theme', 'pilcrow_custom_header_setup' );
 }
