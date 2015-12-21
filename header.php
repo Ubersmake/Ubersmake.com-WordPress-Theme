@@ -25,9 +25,6 @@
             </<?php echo $heading_tag; ?>>
 
             <div id="nav" role="navigation">
-                <div class="skip-link screen-reader-text">
-                    <a href="#content" title="<?php esc_attr_e('Skip to content', 'pilcrow'); ?>"><?php _e('Skip to content', 'pilcrow'); ?></a>
-                </div>
                 <?php wp_nav_menu(array('container_class' => 'menu-header', 'theme_location' => 'primary')); ?>
 			</div>
 
