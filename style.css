@@ -11,8 +11,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: custom-header, custom-background, custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, featured-image-header, featured-images, post-formats
 */
 
-body {
+#page {
     letter-spacing: 0.3em;
+    min-width: 600px;
 }
 
 #header #nav .menu-header .home {
@@ -42,9 +43,9 @@ body.home #content {
     -moz-column-gap: 25px;
     column-gap: 25px;
 
-    -webkit-column-width: 300px;
-    -moz-column-width: 300px;
-    column-width: 300px;
+    -webkit-column-width: 250px;
+    -moz-column-width: 250px;
+    column-width: 250px;
 }
 
 body.home #content .post {
