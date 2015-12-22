@@ -11,14 +11,21 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: custom-header, custom-background, custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, featured-image-header, featured-images, post-formats
 */
 
-#page {
-    letter-spacing: 0.3em;
+html {
+    font-size: 1em;
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    font-size: 1.953em;
+}
+
+#page {    
     min-width: 600px;
 }
 
 #header #nav .menu-header a {
-    font-size: 1.25em;
-    line-height: 4.5em;
+    line-height: 4em;
 }
 
 #header #nav .menu-header .home {
@@ -68,10 +75,6 @@ body.home .entry-outer {
     border-bottom-width: 10px;
 }
 
-body.home #content .format-standard p {
-    letter-spacing: normal;
-}
-
 body.home #content .format-standard a {
     color: #222;
 
@@ -80,17 +83,13 @@ body.home #content .format-standard a {
     padding-left: 1px;
 }
 
+body.home #content .format-standard p {
+    letter-spacing: normal;
+}
+
 body.home #content .format-link {
     color: #FFF;
     background-color: #222;
-}
-
-body.home #content .format-link .entry-content h2 {
-    color: #FFF;
-}
-
-body.home #content .format-link .entry-content p {
-    color: #FFF;
 }
 
 body.home #content .format-link a {
@@ -101,15 +100,21 @@ body.home #content .format-link a {
     padding-left: 1px;
 }
 
+body.home #content .format-link p {
+    color: #FFF;
+}
+
 body.home #content .format-link .description {
-    font-size: smaller;
+    font-size: 0.667em;
+    line-height: 1.5;
     color: #FFF;
 
     margin-bottom: 20px;
 }
 
 body.home #content .format-link .sublink a {
-    font-size: small;
+    font-size: 0.444em;
+    line-height:normal;
     color: #FFF;
 
     padding-left: 1px;
